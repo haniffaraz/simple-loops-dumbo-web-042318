@@ -34,4 +34,3 @@ describe 'Loops' do
       expect{ for_iterator(7) }.to output(@looping_string).to_stdout
     end
   end
-end
